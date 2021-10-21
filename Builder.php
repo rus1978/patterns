@@ -1,9 +1,11 @@
-<?php namespace Patterns;
-
+<?php
 
 /**
  * Строитель (реальный пример сайта epicentrk.ua)
  */
+
+namespace Patterns;
+
 interface builderInterface
 {
     public function setFilter(array $filter): self;
